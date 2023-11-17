@@ -311,14 +311,14 @@ return [
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
-       /* [
+        [
             'text'        => 'pages',
             'url'         => 'admin/pages',
             'icon'        => 'far fa-fw fa-file',
-            'label'       => 3,
+            'label'       => 4,
             'label_color' => 'success',
-        ],*/
-        ['header' => 'Sistema Academico'],
+        ],
+        ['header' => 'Sistema academico'],
         [
             'text' => 'Facultades',
             'url'  => '/facultades/listado',
@@ -329,26 +329,22 @@ return [
             'url'  => '/programas/listado',
             'icon' => 'fas fa-fw fa-lock',
         ],
-
         [
             'text' => 'Docentes',
             'url'  => '/docentes/listado',
             'icon' => 'fas fa-fw fa-lock',
         ],
-
         [
             'text' => 'Estudiantes',
             'url'  => '/estudiantes/listado',
             'icon' => 'fas fa-fw fa-lock',
         ],
-
         [
             'text' => 'Materias',
             'url'  => '/materias/listado',
             'icon' => 'fas fa-fw fa-lock',
         ],
-
-        /*[
+        [
             'text'    => 'multilevel',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [
@@ -385,9 +381,7 @@ return [
                     'url'  => '#',
                 ],
             ],
-        ],/*
-
-        /*
+        ],
         ['header' => 'labels'],
         [
             'text'       => 'important',
@@ -403,7 +397,7 @@ return [
             'text'       => 'information',
             'icon_color' => 'cyan',
             'url'        => '#',
-        ],*/
+        ],
     ],
 
     /*

@@ -10,31 +10,29 @@ class FacultadSeeder extends Seeder
 {
     /**
      * Run the database seeds.
-     *
-     * @return void
      */
-    public function run()
+    public function run(): void
     {
-        $datos =[
+        $datos = [
             [
-               'codfacultad' => '10',
-               'nomfacultad' => 'Artes'
+                'codfacultad' =>'10',
+                'nomfacultad' =>'Ciencias exactas',
             ],
             [
-                'codfacultad' => '20',
-                'nomfacultad' => 'Ciencias Economicas'
+                'codfacultad' =>'20',
+                'nomfacultad' =>'Idiomas',
             ],
             [
                 'codfacultad' => '30',
-                'nomfacultad' => 'Ingeniería'
+                'nomfacultad' => 'Programacion',
             ],
             [
                 'codfacultad' => '40',
-                'nomfacultad' => 'Derecho'
+                'nomfacultad' => 'Fisica',
             ],
             [
                 'codfacultad' => '50',
-                'nomfacultad' => 'Ciencias Humanas'
+                'nomfacultad' => 'Economia',
             ]
         ];
         DB::table('facultad')->insert($datos);
